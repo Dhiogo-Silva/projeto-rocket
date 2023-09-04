@@ -29,6 +29,7 @@ body {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
 body * {
@@ -149,4 +150,13 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 8px;
+}
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assents/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assents/bg-desktop-light.jpg);
+  }
 }
